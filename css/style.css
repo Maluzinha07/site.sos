@@ -1,0 +1,42 @@
+@import url(css/selec.css);
+
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    width: 1200px;
+    margin: auto;
+}
+
+
+.pai
+{
+    border: 1px solid  black;
+    width: 500px;
+    height: 800px;
+    background-color: blue;
+    margin: 1rem;
+    background-position: center;
+   
+   
+}
+
+.login
+{
+ 
+ width: 300px;
+ height: 100px;
+ padding-left: 100px;
+ padding-top: 250px;
+ border: 1px;
+ 
+}
+
