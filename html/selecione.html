@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="../css/style.css">
    
     <title>Document</title>
 </head>
 <body>
     <main class="p2">
+        <div class="p3">
+            <form action="p1">
+
         <h1> Selecione o Leito Que Ira Gerenciar</h1>
-        <input type="text"
-        placeholder="selecione">
-        <button class="ir"> procure</button>
         
+        <input type="text" list="Leito" placeholder="selecione">
+         <datalist id="Leito">
+
+            <option value="Leito 1"></option>
+            <option value="Leito 2"></option>
+            <option value="Leito 3"></option>
+
+         </datalist>
+    
+        <button class="ir"> procure</button>
+          </form>
+    </div>
     </main>
 </body>
 </html>
