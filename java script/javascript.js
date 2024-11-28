@@ -9,13 +9,20 @@ function selectOption(opcao) {
 
     // Simula uma resposta do bot com base na opção escolhida
     let botMessage;
-    if (opcao === 'Estou com Fome') {
-        botMessage = "Enfermeiro: Estou a caminho";
-    } else if (opcao === 'Preciso ir ao banheiro') {
-        botMessage = "Enfermeiro: Estou finalizando um atendimento";
-    } else {
+    if (opcao === 'Dor ou desconforto') {
+        botMessage = "Enfermeiro: Estou a caminho!";
+    } else if (opcao === 'Medicamento') {
+        botMessage = "Enfermeiro: Estou finalizando um atendimento,já vou atendelo(a).";
+    }  else   if (opcao === 'Rouparia') {
+        botMessage = "Enfermeiro: Estou a caminho!";
+    } else if (opcao === 'Ambiente') {
+        botMessage = "Enfermeiro: Estou finalizando um atendimento,já vou atendelo(a).";
+    } 
+    else {
         botMessage = "Opção inválida.";
     }
+    
+
 
     const botMessageElement = document.createElement('div');
     botMessageElement.classList.add('bot-message');
@@ -25,3 +32,26 @@ function selectOption(opcao) {
        // Rola a conversa para baixo
        chatBox.scrollTop = chatBox.scrollHeight;
    }
+
+   const balloons = document.querySelectorAll('.balloon');
+  const chatBox = document.getElementById('chat-box');
+
+// Objeto com perguntas e respostas pré-definidas
+const respostas = {
+  'Pergunta 1': 'Esta é a resposta para a pergunta 1.',
+  'Pergunta 2': 'A resposta para a pergunta 2 é esta.',
+  // Adicione mais perguntas e respostas aqui
+};
+
+balloons.forEach(balloon => {
+  balloon.addEventListener('click', () => {
+    const pergunta = balloon.textContent;
+    const resposta = respostas[pergunta];
+
+    if (resposta) {
+      chatBox.textContent = resposta;
+    } else {
+      chatBox.textContent = 'Desculpe, não encontrei a resposta para essa pergunta.';
+    }
+  });
+});

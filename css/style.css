@@ -2,13 +2,15 @@
 @import url(chat.css);
 @import url(ico.css);
 
-body {
+body{
     margin: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     min-height: 100vh;
+    max-width: 500px;
     background: linear-gradient(to bottom right, #a1caf1, #6eb5ff);
+    margin: auto;
 }
 
 .container {
@@ -19,12 +21,12 @@ body {
 }
 
 .login{
-    color: rgb(7, 75, 143);
+    color: #1ABC9C;
 }
 
 .entrar{
     font-size: 10px;
-    color: rgb(7, 75, 143);
+    color: #1ABC9C;
     padding-left: 10px;
     padding-bottom: 10px;
 }
@@ -44,7 +46,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: rgb(7, 75, 143);
+    background-color: #1ABC9C;
 }
 
 .formulario{

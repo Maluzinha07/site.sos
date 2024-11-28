@@ -1,9 +1,37 @@
-.isa
+h1
 {
-    border: 1px solid black;
-    width: 500px;
-    height: 800px;
-    background-color: blue;
-    margin: 1rem;
-    background-position: center;
+    color: white;
+}
+
+.imagensIcones
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;      
+}
+
+img
+{
+    margin: 20px;
+}
+
+.s 
+{
+    font-size: 16px;
+    color: white;
+}
+
+
+.isa{
+    display: flex;
+    max-width: 700px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.umdolado{
+    margin: 20px;
 }

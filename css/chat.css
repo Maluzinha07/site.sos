@@ -10,15 +10,42 @@
 .chat-box {
     height: 80%;
     padding: 10px;
-    overflow-y: scroll;
+    overflow-x: scroll;
+    padding: 10px;
 }
 
 .input-area {
-    display: flex;
+    display: flex;  
     padding: 10px;
 }
 
 input {
     flex-grow: 1;
     padding: 5px;
+}
+
+.balloon {
+    background-color: #1ABC9C;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.user-message{
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 80px;
+    margin-top: 5px;
+} 
+
+.bot-message{
+    border-radius: 10px;
+    background-color: #D5D8DC;
+    color: #090909;
+    padding: 20px;
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 60%;
 }
