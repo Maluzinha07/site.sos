@@ -1,20 +1,29 @@
+h1
+{
+    color: white;
+}
+
 .p2
 {
-    border: 1px solid black;
-    width: 500px;
-    height: 800px;
-    background-color: blue;
-    margin: 1rem;
-    background-position: center;
-    
+    align-items: center;
+    margin: auto;
+   
+}
+
+h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
 }
 
 .p3
 {
-    width: 300px;
+ width: 300px;
  height: 100px;
  padding-left: 100px;
  padding-top: 250px;
  border: 1px;
+ 
+
 }
 

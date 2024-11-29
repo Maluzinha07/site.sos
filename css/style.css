@@ -11,6 +11,7 @@ body{
     max-width: 500px;
     background: linear-gradient(to bottom right, #a1caf1, #6eb5ff);
     margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container {
@@ -22,6 +23,7 @@ body{
 
 .login{
     color: #1ABC9C;
+    
 }
 
 .entrar{
@@ -47,9 +49,11 @@ button {
     border-radius: 5px;
     cursor: pointer;
     background-color: #1ABC9C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .formulario{
     display: flex;
     flex-direction: column;
 }
+
